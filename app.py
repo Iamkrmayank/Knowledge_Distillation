@@ -6,7 +6,7 @@ import pandas as pd
 squad = load_dataset("squad")
 
 # Title for the Streamlit App
-st.title("SQuAD Dataset Visualization")
+st.title("Dataset Visualization")
 
 # Sidebar to select dataset split
 split = st.sidebar.selectbox("Select Dataset Split", squad.keys())
